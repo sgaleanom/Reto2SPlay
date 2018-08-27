@@ -1,0 +1,216 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+<!--[if IE 7]>
+<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">
+<![endif]--><!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><!-- Bootstrap -->
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script><link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">Demo Project using Serenity and Cucumber</span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="dad8d54b2a410acf35b9d50c7a737c0dcd66ece7f85e471887db662f665d4dbe.html">New Employee Registration Process</a></span>
+                > <span class="truncate-60"><a
+                    href="58fc3f023594bc0f135c65b4b325aa4f8def453ab2be353fa6acaec2f76640a7.html">Register new employee </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 27-08-2018 13:03</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">New Employee Registration Process </span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                As a user of the OrangeHR platform
+I want to register a new employee
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="94e814d74c00050a2d23edbcede916ee2a048e76d835b698441a0a8cbeac4abd.html">Registroempleado
+                                    (tag)</a>
+                                </span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><i class='fa fa-check-square-o success-icon fa-2x' title='SUCCESS'></i></span>
+                            <span class="test-case-title">
+                                <span class="success-color">Register new employee
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="443c9cb7f52caf8704a0454fd530fb7ab29175256f9be91584bc4966e47eca91.png" title="Given Juan needs to create an employee in the OrageHR" width="1366"/>
+                <img src="854c1baf42b3daac8d7158088cc992807251a42b37e4d15e1016049f4633a1b3.png" title="Juan opens the Orange hr login page" width="1366"/>
+                <img src="dbf97881ca1b76e2a05479fd0191675dd06bea462ac94244fcf9a97f61ce6bfe.png" title="Juan clicks on Button Login" width="1366"/>
+                <img src="cb7751294fce4416639b8329ecebe4eeb9b2710428c54a172d8bdd1acad6d759.png" title="When access the add employee menu" width="1366"/>
+                <img src="42121e0a1d590840aa715fee6842b1bd55f905641f80c976dd8ff23550907f77.png" title="Juan clicks on Button menu PIM" width="1366"/>
+                <img src="9b5d95943f243bc80d4467dcd3b7a07bbd70a21e62f722cc8f3b3e9ff123a9b8.png" title="Juan clicks on Button menu add employee" width="1366"/>
+                <img src="888ccb481de51e7d7a17fd51c34912deb373f71d258b4bbef65fe1e2de1187f6.png" title="And he performs employee registration" width="1366"/>
+                <img src="8a9c855948f506f0f59f6e94113e80d52406dd5242e85361cfba1baac3d8254d.png" title="Juan enters 'Juan' into First name employee" width="1366"/>
+                <img src="0e78a4580c04c258f84ed88ca5e30c49497a8e7a17136fc15ff3153394ca5100.png" title="Juan enters 'Pedro' into Middle name employee" width="1366"/>
+                <img src="928550f1e35b66b76adbecaa44f7e3bc244031ac8b7f923a852e0af0fa0ba82c.png" title="Juan enters 'Perez' into Last name employee" width="1366"/>
+                <img src="6e2b1f44ddc85bf02f101cdf06cc3f1cbbcd1a9d3d575979e2648617f9b4ba34.png" title="Juan clicks on Location employee" width="1366"/>
+                <img src="d321e2a3c46b3b3e73e22874f970f82c239beda8348d9cc67f3ff676e13451da.png" title="Juan clicks on Button save employee" width="1366"/>
+                <img src="b47d4e272634e3348661d4538221757ad50091badb6b61761f8ee03cdcf057c3.png" title="Juan enters '1111' into Other Id of employee" width="1366"/>
+                <img src="25765203118121b17d6b63db54ec2b8bd07b3d3449832bdefd4c2ebc3252b341.png" title="Juan enters '1991-10-28' into Date of birth of employee" width="1366"/>
+                <img src="f5dc0858368d420df3b11eaea85c369c38c41fb2e1abe51f39bd1f594984b227.png" title="Juan clicks on Marital status of employee" width="1366"/>
+                <img src="9190f1fb04662aba88c97178f471170fd36cd61e26d2e7a412b1536899263d57.png" title="Juan clicks on Nationality of employee" width="1366"/>
+                <img src="0aaa501ef5fd1541f764388f0360cbd1082f1b35ebee8f3c1a54a6cddd38d0f1.png" title="Juan enters '123132131' into Number of driver license" width="1366"/>
+                <img src="41cbf253258e5a41c74a3a0b2e8c50db552d27f809788393b01e4e9792b47fc3.png" title="Juan enters '2020-10-10' into License expiry date" width="1366"/>
+                <img src="41ae0e707dae37b67bb5f4ef1f8c9d218b90c0e841a725b9544d4a7a5fd1c9c0.png" title="Juan enters 'jperez' into Nickname" width="1366"/>
+                <img src="8b7be88a8266099e1dd60a7c7bd2496011b88abac402c354ec5714e5cb44d7e4.png" title="Juan enters '12345' into Military service" width="1366"/>
+                <img src="fc96a99d0e1855fa04a8353fdea62224d80a73fc6db9bf4daf29483872a91393.png" title="Juan clicks on Radio button gender male" width="1366"/>
+                <img src="65dda9fbccdff86c0804ffca9c0e1444b30a62c2ad0a3a1e3ef83aa6ebc0e5d9.png" title="Juan clicks on CheckBox smoker" width="1366"/>
+                <img src="33345a9498691baaec220922ba64f1306b01fd4eec02deb918bf0e17c68f1dea.png" title="Juan clicks on Button of saver personal details" width="1366"/>
+                <img src="83a15376f3ed829ee97649d84004c4e69693dc7bea6fbfb9e540fa95a37ffe90.png" title="Juan clicks on Button menu employee list" width="1366"/>
+                <img src="e5ce3b06692eeab02150a24e3630730397f16642efb2199d66606c7451ef6157.png" title="Juan enters 'Juan Pedro Perez' into field employee name" width="1366"/>
+                <img src="3836772be4e1899b0c54d255544bbb0e8512fd9ca60fa892bf203c91e0fbfa00.png" title="Juan clicks on Button search" width="1366"/>
+                <img src="5243d471bebfd287ffe6a4acc2a041fad862030955495a27fdbb8b9116515610.png" title="Then the visualization of the new employee in the application" width="1366"/>
+                <img src="5243d471bebfd287ffe6a4acc2a041fad862030955495a27fdbb8b9116515610.png" title="Then the employee name: <span class='success-color'>SUCCESS</span>" width="1366"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 1.9.9</span>
+</div>
+</body>
+</html>
